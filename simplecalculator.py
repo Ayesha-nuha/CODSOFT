@@ -1,20 +1,20 @@
-a=int(input("Enter the value of a: "))
-b=int(input("Enter the value of b: "))
+num1=int(input("Enter the value of Num 1: "))
+num2=int(input("Enter the value of Num 2: "))
 print("Available operations in this simple calculator: '+','-','*','/' ")
 operation=input("Enter the operation to be performed: ")
 
 if operation == '+':
-  print("Result:",a+b)
+  print("Result:",num1+num2)
   
 elif operation == '-':
-  print("Result:",a-b)
+  print("Result:",num1-num2)
   
 elif operation == '*':
-  print("Result:",a*b)
+  print("Result:",num1*num2)
   
 elif operation == '/':
- if b != 0:
-   print("Result:",a/b)
+ if num2 != 0:
+   print("Result:",num1/num2)
  else:
    print("Undefined")
    
